@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "977171028015",
+    "firebase_url": "https://fir-4cc33.firebaseio.com",
+    "project_id": "fir-4cc33",
+    "storage_bucket": "fir-4cc33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977171028015:android:a53c12b067583633",
+        "android_client_info": {
+          "package_name": "com.example.erkan.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977171028015-2mvptlobkq40v4fn9ckoj5ccje3u516p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCazIIQHijro8LX5ie3um-z-j94RfoVftc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

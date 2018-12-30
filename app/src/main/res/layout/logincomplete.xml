@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/logo"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hoşgeldiniz"
+                android:textColor="#ffff"
+                android:textSize="30dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginBottom="30dp"
+                android:textAlignment="center"
+                />
+            <TextView
+                android:id="@+id/NASTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffff"
+                android:layout_marginBottom="30dp"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                />
+            <TextView
+                android:id="@+id/EmaiTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffff"
+                android:layout_marginBottom="30dp"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                />
+            <TextView
+                android:id="@+id/PassTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:textColor="#ffff"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffff"
+                android:layout_marginBottom="30dp"
+                android:text="Giriş Yapılıyor..."
+                android:textSize="30dp"
+                android:textAlignment="center"
+                />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
